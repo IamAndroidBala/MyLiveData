@@ -6,7 +6,8 @@ class AppConstants {
 
         const val Is_Test_Build = true
 
-        val Base_Url = ""
+        val Base_Url = "https://jsonplaceholder.typicode.com"
+        const val User_Api = "/users"
     }
 
 }

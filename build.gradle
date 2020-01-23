@@ -4,6 +4,14 @@ buildscript {
     ext.runtime_version   = '1.1.1'
     ext.lifecycle_version = '1.1.1'
     ext.compiler_version  = '1.1.1'
+    ext.ktx_version       = '1.1.0'
+    ext.appcompat_version = '1.1.0'
+    ext.recycler_version  = '1.1.0'
+    ext.cardview_version  = '1.0.0'
+    ext.hud_version       = '1.2.0'
+    ext.retrofit_version  = '2.6.2'
+    ext.gson_version      = '2.6.2'
+    ext.converter_version = '2.5.0'
 
     repositories {
         google()

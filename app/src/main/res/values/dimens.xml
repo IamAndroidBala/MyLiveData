@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="card_side_margin">   12dp  </dimen>
+    <dimen name="card_elevation">     2dp   </dimen>
+    <dimen name="card_corner_radius"> 12dp  </dimen>
+    <dimen name="margin_normal">      16dp  </dimen>
+
+    <dimen name="text_normal">        18sp  </dimen>
+    <dimen name="text_heading">       22sp  </dimen>
+    <dimen name="text_sub_heading">   20sp  </dimen>
+
+    <dimen name="common_16">    16dp    </dimen>
+    <dimen name="common_5">     5dp    </dimen>
+    <dimen name="common_10">    10dp    </dimen>
+    <dimen name="common_25">    25dp    </dimen>
+
+
+</resources>

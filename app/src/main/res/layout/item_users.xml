@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    app:cardCornerRadius="@dimen/common_5"
+    android:layout_marginTop="@dimen/common_5"
+    android:layout_marginBottom="@dimen/common_5"
+    android:layout_marginLeft="@dimen/common_10"
+    android:layout_marginRight="@dimen/common_10"
+    app:cardElevation="@dimen/common_10">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/common_5">
+
+        <ImageView
+            android:id="@+id/imgUserIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_5"
+            android:src="@drawable/ic_account" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/common_5"
+            android:layout_toEndOf="@+id/imgUserIcon"
+            android:textSize="@dimen/text_heading"
+            android:textColor="@color/colorBlack"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:fontFamily="@font/sukhumvitset_bold"
+            android:id="@+id/tvUsername"/>
+
+        <TextView
+            android:layout_below="@+id/tvUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_normal"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:fontFamily="@font/sukhumvitset_medium"
+            android:drawablePadding="@dimen/common_5"
+            android:drawableStart="@drawable/ic_phone"
+            android:id="@+id/tvPhone"/>
+
+        <TextView
+            android:layout_below="@+id/tvPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_normal"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/ic_email"
+            android:maxLines="1"
+            android:fontFamily="@font/sukhumvitset_medium"
+            android:drawablePadding="@dimen/common_5"
+            android:id="@+id/tvEmail"/>
+
+        <TextView
+            android:layout_below="@+id/tvEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_normal"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/ic_work"
+            android:maxLines="1"
+            android:fontFamily="@font/sukhumvitset_medium"
+            android:drawablePadding="@dimen/common_5"
+            android:id="@+id/tvWork"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvWork"
+            android:orientation="horizontal"
+            android:id="@+id/ll">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="@dimen/common_5"
+                android:src="@drawable/ic_location"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_normal"
+                android:gravity="center_vertical"
+                android:fontFamily="@font/sukhumvitset_medium"
+                android:paddingLeft="@dimen/common_5"
+                android:id="@+id/tvAddress"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_below="@+id/ll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_normal"
+            android:gravity="center_vertical"
+            android:drawableStart="@drawable/ic_map"
+            android:maxLines="1"
+            android:text="@string/open_map"
+            android:fontFamily="@font/sukhumvitset_medium"
+            android:drawablePadding="@dimen/common_5"
+            android:id="@+id/tvOpenMap"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
+
