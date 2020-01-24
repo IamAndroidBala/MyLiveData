@@ -1,11 +1,10 @@
-package com.android.mylivedata.networking
+package com.android.mylivedata.network
 
 import androidx.lifecycle.MutableLiveData
 import com.android.mylivedata.model.user.User
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-
 
 interface RestApiService {
 

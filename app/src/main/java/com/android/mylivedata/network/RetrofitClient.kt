@@ -1,4 +1,4 @@
-package com.android.mylivedata.networking
+package com.android.mylivedata.network
 
 import com.android.mylivedata.utils.AppConstants
 import okhttp3.OkHttpClient

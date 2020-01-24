@@ -1,6 +1,6 @@
 package com.android.mylivedata.viewmodel
 
-import com.android.mylivedata.networking.RestApiService
+import com.android.mylivedata.network.RestApiService
 
 class ApiRepository() {
 
